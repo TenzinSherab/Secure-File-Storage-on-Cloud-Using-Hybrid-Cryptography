@@ -44,7 +44,28 @@ You can think of it as a mock cloud. Files placed there are available for decryp
 
 ## Screenshot
 
-Add your GUI screenshot as `screenshot.png` in the project root.
+![App Screenshot](./screenshot.png)
+
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/secure-cloud-storage.git
+   cd secure-cloud-storage
+2.Install dependencies:
+
+pip install cryptography
+
+3.Run the app:
+
+python SCS.py
+
+
+
+
 
 
 
