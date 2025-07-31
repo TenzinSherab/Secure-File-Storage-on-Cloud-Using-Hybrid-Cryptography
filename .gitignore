@@ -1,0 +1,17 @@
+# Ignore decrypted and encrypted outputs
+decrypted_output.txt
+encrypted_*.bin
+encrypted_*.txt_*
+
+# Ignore simulated cloud directory
+cloud_storage/
+
+# Ignore live blockchain log
+blockchain.json
+
+# Ignore temporary files
+*.txt
+
+# Ignore Python cache
+__pycache__/
+*.pyc
