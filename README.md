@@ -26,3 +26,25 @@ This project does not use real cloud services.
 
 All "cloud uploads" are simulated by saving encrypted files into a local directory named:
 
+
+You can think of it as a mock cloud. Files placed there are available for decryption and verification.
+
+---
+
+## Features
+
+- Select and encrypt any file via GUI
+- Encrypts with ChaCha20-Poly1305 using HKDF-derived key
+- Saves encrypted file in a simulated cloud directory
+- Appends a hash entry to `blockchain.json` for each upload
+- Allows you to decrypt encrypted files and verify them using blockchain log
+- Simple, clean GUI built with Tkinter
+
+---
+
+## Screenshot
+
+Add your GUI screenshot as `screenshot.png` in the project root.
+
+
+
